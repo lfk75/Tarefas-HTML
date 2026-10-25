@@ -1,0 +1,174 @@
+
+/* GERAL */
+    *{
+        margin: 0%;
+    }
+
+    body {
+        background-color: #171717;
+        color: #e0ded8;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    b {
+        color: #d6b36a;
+    }
+
+    .laranja{
+        color: rgb(249, 178, 23);
+    }
+
+/* HEADER */
+    header{
+        background-color: #1e1e1e;
+        text-align: center;
+        padding: 40px 20px;
+        border-bottom: 3px solid #8e302b;
+    }
+
+    header h1 {
+        color: #d6b36a;
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 50px;
+        margin: 0 0 25px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    header img {
+        display: block;
+        width: 900px;
+        height: 420px;
+        margin: 0 auto 20px;
+        border-radius: 5px;
+    }
+
+    header p {
+        margin: auto;
+        margin: 8px 0;
+        font-size: 18px;
+    }
+
+/* MAIN */
+    main {
+        /* 1 numero: altera o top e bottom, 2 numero as laterais*/
+        margin: 20px auto;
+        width: 1100px;
+        padding: 0 30px;
+    }
+
+    
+    main h2 {
+        color: #d6b36a;
+        font-size: 1.8rem;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #71312d;
+        padding-bottom: 5px;
+    }
+
+    #porquejogar {
+        color: #e0b76c;
+        text-transform: uppercase;
+    }
+
+    main h3 {
+        color: #da7d20;
+        font-size: 1.35rem;
+        margin-top: 30px;
+        margin-bottom: 12px;
+    }
+
+   main p {
+        text-indent: 12px;
+        margin: 12px auto;
+        text-align: justify;
+    }
+
+    main img, video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px 0;
+        border-radius: 5px;
+        border: 1px solid #51443a;
+    }
+
+    .ratoRei {
+        margin: 0 auto 20px;
+        width: 36%;
+    }
+
+    .ratoRei h3 {
+        font-family: "Russo One", sans-serif;
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+
+    #ratoVideo {
+        margin: 0 auto 20px;
+        width: 70%;
+    }
+
+    main ul, main ol {
+        padding-left: 35px;
+        /* topo, laterais, bottom */
+        margin: 25px 0 25px;
+    }
+
+    main li {
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* não lembro se você tinha ensinado isso para a gente, mas eu achei interesante de colocar */
+    main li::marker {
+        color: #d6b36a;
+    }
+
+    a:hover {
+    color: #d6b36a;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+    footer {
+        background-color: #101010;
+        border-top: 3px solid #8e302b;
+        padding: 35px 25px;
+        text-align: center;
+    }
+
+    footer h2 {
+        color: #d6b36a;
+        font-size: 1.7rem;
+    }
+
+    footer h3 {
+        color: #da7d20;
+        margin-top: 25px;
+    }
+
+    footer nav ul {
+        /*não sube mover os pontinhos da lista, então tirei, fico até melhor */
+        list-style: none;
+        padding: 0;
+    }
+
+    footer nav li {
+        margin: 10px 0;
+    }
+
+    footer p {
+        color: #96918a;
+        font-size: 0.9rem;
+        margin: 10px 0;
+    }
+
+
+
+
